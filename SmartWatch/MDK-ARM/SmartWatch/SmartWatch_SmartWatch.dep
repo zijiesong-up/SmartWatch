@@ -1,0 +1,704 @@
+Dependencies for Project 'SmartWatch', Target 'SmartWatch': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (startup_stm32f411xe.s)(0x6A003D46)(--cpu Cortex-M4.fp.sp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_SmartWatch-ID:\Keil5\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Keil5\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "STM32F411xE SETA 1"--list startup_stm32f411xe.lst --xref -o smartwatch\startup_stm32f411xe.o --depend smartwatch\startup_stm32f411xe.d)
+F (../Core/Src/main.c)(0x6A003D2C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ..\Fwlib\Config -I ..\Fwlib\DebugLog -I ..\Fwlib\DebugLog\LogPrint -I ..\Fwlib\SeggerRtt -I ..\Fwlib\StdSnbc -I ..\Fwlib\RingBuffer-I.\RTE\_SmartWatch-ID:\Keil5\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Keil5\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER -DSTM32F411xE-o smartwatch\main.o --omf_browse smartwatch\main.crf --depend smartwatch\main.d)
+I (../Core/Inc/main.h)(0x69FFFBB0)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6943E9D9)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69FFFBB0)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6943E9D9)
+I (../Core/Inc/gpio.h)(0x69FFFBB0)
+I (../X-CUBE-AI/App/app_x-cube-ai.h)(0x6A003D2C)
+I (../Middlewares/ST/AI/Inc/ai_platform.h)(0x6A0032FB)
+I (D:\Keil5\ARM\ARMCC\include\inttypes.h)(0x5D9AD218)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+F (../Core/Src/gpio.c)(0x69FFFBB0)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ..\Fwlib\Config -I ..\Fwlib\DebugLog -I ..\Fwlib\DebugLog\LogPrint -I ..\Fwlib\SeggerRtt -I ..\Fwlib\StdSnbc -I ..\Fwlib\RingBuffer-I.\RTE\_SmartWatch-ID:\Keil5\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Keil5\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER -DSTM32F411xE-o smartwatch\gpio.o --omf_browse smartwatch\gpio.crf --depend smartwatch\gpio.d)
+I (../Core/Inc/gpio.h)(0x69FFFBB0)
+I (../Core/Inc/main.h)(0x69FFFBB0)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6943E9D9)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69FFFBB0)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6943E9D9)
+F (../Core/Src/stm32f4xx_it.c)(0x69FFFBB0)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ..\Fwlib\Config -I ..\Fwlib\DebugLog -I ..\Fwlib\DebugLog\LogPrint -I ..\Fwlib\SeggerRtt -I ..\Fwlib\StdSnbc -I ..\Fwlib\RingBuffer-I.\RTE\_SmartWatch-ID:\Keil5\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Keil5\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER -DSTM32F411xE-o smartwatch\stm32f4xx_it.o --omf_browse smartwatch\stm32f4xx_it.crf --depend smartwatch\stm32f4xx_it.d)
+I (../Core/Inc/main.h)(0x69FFFBB0)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6943E9D9)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69FFFBB0)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6943E9D9)
+I (../Core/Inc/stm32f4xx_it.h)(0x69FFFBB0)
+F (../Core/Src/stm32f4xx_hal_msp.c)(0x69FFFBB0)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ..\Fwlib\Config -I ..\Fwlib\DebugLog -I ..\Fwlib\DebugLog\LogPrint -I ..\Fwlib\SeggerRtt -I ..\Fwlib\StdSnbc -I ..\Fwlib\RingBuffer-I.\RTE\_SmartWatch-ID:\Keil5\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Keil5\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER -DSTM32F411xE-o smartwatch\stm32f4xx_hal_msp.o --omf_browse smartwatch\stm32f4xx_hal_msp.crf --depend smartwatch\stm32f4xx_hal_msp.d)
+I (../Core/Inc/main.h)(0x69FFFBB0)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6943E9D9)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69FFFBB0)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6943E9D9)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c)(0x6943E9D9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ..\Fwlib\Config -I ..\Fwlib\DebugLog -I ..\Fwlib\DebugLog\LogPrint -I ..\Fwlib\SeggerRtt -I ..\Fwlib\StdSnbc -I ..\Fwlib\RingBuffer-I.\RTE\_SmartWatch-ID:\Keil5\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Keil5\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER -DSTM32F411xE-o smartwatch\stm32f4xx_hal_rcc.o --omf_browse smartwatch\stm32f4xx_hal_rcc.crf --depend smartwatch\stm32f4xx_hal_rcc.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6943E9D9)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69FFFBB0)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6943E9D9)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c)(0x6943E9D9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ..\Fwlib\Config -I ..\Fwlib\DebugLog -I ..\Fwlib\DebugLog\LogPrint -I ..\Fwlib\SeggerRtt -I ..\Fwlib\StdSnbc -I ..\Fwlib\RingBuffer-I.\RTE\_SmartWatch-ID:\Keil5\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Keil5\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER -DSTM32F411xE-o smartwatch\stm32f4xx_hal_rcc_ex.o --omf_browse smartwatch\stm32f4xx_hal_rcc_ex.crf --depend smartwatch\stm32f4xx_hal_rcc_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6943E9D9)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69FFFBB0)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6943E9D9)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c)(0x6943E9D9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ..\Fwlib\Config -I ..\Fwlib\DebugLog -I ..\Fwlib\DebugLog\LogPrint -I ..\Fwlib\SeggerRtt -I ..\Fwlib\StdSnbc -I ..\Fwlib\RingBuffer-I.\RTE\_SmartWatch-ID:\Keil5\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Keil5\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER -DSTM32F411xE-o smartwatch\stm32f4xx_hal_flash.o --omf_browse smartwatch\stm32f4xx_hal_flash.crf --depend smartwatch\stm32f4xx_hal_flash.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6943E9D9)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69FFFBB0)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6943E9D9)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c)(0x6943E9D9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ..\Fwlib\Config -I ..\Fwlib\DebugLog -I ..\Fwlib\DebugLog\LogPrint -I ..\Fwlib\SeggerRtt -I ..\Fwlib\StdSnbc -I ..\Fwlib\RingBuffer-I.\RTE\_SmartWatch-ID:\Keil5\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Keil5\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER -DSTM32F411xE-o smartwatch\stm32f4xx_hal_flash_ex.o --omf_browse smartwatch\stm32f4xx_hal_flash_ex.crf --depend smartwatch\stm32f4xx_hal_flash_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6943E9D9)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69FFFBB0)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6943E9D9)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c)(0x6943E9D9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ..\Fwlib\Config -I ..\Fwlib\DebugLog -I ..\Fwlib\DebugLog\LogPrint -I ..\Fwlib\SeggerRtt -I ..\Fwlib\StdSnbc -I ..\Fwlib\RingBuffer-I.\RTE\_SmartWatch-ID:\Keil5\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Keil5\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER -DSTM32F411xE-o smartwatch\stm32f4xx_hal_flash_ramfunc.o --omf_browse smartwatch\stm32f4xx_hal_flash_ramfunc.crf --depend smartwatch\stm32f4xx_hal_flash_ramfunc.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6943E9D9)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69FFFBB0)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6943E9D9)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c)(0x6943E9D9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ..\Fwlib\Config -I ..\Fwlib\DebugLog -I ..\Fwlib\DebugLog\LogPrint -I ..\Fwlib\SeggerRtt -I ..\Fwlib\StdSnbc -I ..\Fwlib\RingBuffer-I.\RTE\_SmartWatch-ID:\Keil5\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Keil5\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER -DSTM32F411xE-o smartwatch\stm32f4xx_hal_gpio.o --omf_browse smartwatch\stm32f4xx_hal_gpio.crf --depend smartwatch\stm32f4xx_hal_gpio.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6943E9D9)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69FFFBB0)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6943E9D9)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c)(0x6943E9D9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ..\Fwlib\Config -I ..\Fwlib\DebugLog -I ..\Fwlib\DebugLog\LogPrint -I ..\Fwlib\SeggerRtt -I ..\Fwlib\StdSnbc -I ..\Fwlib\RingBuffer-I.\RTE\_SmartWatch-ID:\Keil5\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Keil5\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER -DSTM32F411xE-o smartwatch\stm32f4xx_hal_dma_ex.o --omf_browse smartwatch\stm32f4xx_hal_dma_ex.crf --depend smartwatch\stm32f4xx_hal_dma_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6943E9D9)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69FFFBB0)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6943E9D9)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c)(0x6943E9D9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ..\Fwlib\Config -I ..\Fwlib\DebugLog -I ..\Fwlib\DebugLog\LogPrint -I ..\Fwlib\SeggerRtt -I ..\Fwlib\StdSnbc -I ..\Fwlib\RingBuffer-I.\RTE\_SmartWatch-ID:\Keil5\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Keil5\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER -DSTM32F411xE-o smartwatch\stm32f4xx_hal_dma.o --omf_browse smartwatch\stm32f4xx_hal_dma.crf --depend smartwatch\stm32f4xx_hal_dma.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6943E9D9)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69FFFBB0)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6943E9D9)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c)(0x6943E9D9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ..\Fwlib\Config -I ..\Fwlib\DebugLog -I ..\Fwlib\DebugLog\LogPrint -I ..\Fwlib\SeggerRtt -I ..\Fwlib\StdSnbc -I ..\Fwlib\RingBuffer-I.\RTE\_SmartWatch-ID:\Keil5\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Keil5\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER -DSTM32F411xE-o smartwatch\stm32f4xx_hal_pwr.o --omf_browse smartwatch\stm32f4xx_hal_pwr.crf --depend smartwatch\stm32f4xx_hal_pwr.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6943E9D9)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69FFFBB0)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6943E9D9)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c)(0x6943E9D9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ..\Fwlib\Config -I ..\Fwlib\DebugLog -I ..\Fwlib\DebugLog\LogPrint -I ..\Fwlib\SeggerRtt -I ..\Fwlib\StdSnbc -I ..\Fwlib\RingBuffer-I.\RTE\_SmartWatch-ID:\Keil5\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Keil5\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER -DSTM32F411xE-o smartwatch\stm32f4xx_hal_pwr_ex.o --omf_browse smartwatch\stm32f4xx_hal_pwr_ex.crf --depend smartwatch\stm32f4xx_hal_pwr_ex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6943E9D9)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69FFFBB0)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6943E9D9)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c)(0x6943E9D9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ..\Fwlib\Config -I ..\Fwlib\DebugLog -I ..\Fwlib\DebugLog\LogPrint -I ..\Fwlib\SeggerRtt -I ..\Fwlib\StdSnbc -I ..\Fwlib\RingBuffer-I.\RTE\_SmartWatch-ID:\Keil5\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Keil5\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER -DSTM32F411xE-o smartwatch\stm32f4xx_hal_cortex.o --omf_browse smartwatch\stm32f4xx_hal_cortex.crf --depend smartwatch\stm32f4xx_hal_cortex.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6943E9D9)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69FFFBB0)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6943E9D9)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c)(0x6943E9D9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ..\Fwlib\Config -I ..\Fwlib\DebugLog -I ..\Fwlib\DebugLog\LogPrint -I ..\Fwlib\SeggerRtt -I ..\Fwlib\StdSnbc -I ..\Fwlib\RingBuffer-I.\RTE\_SmartWatch-ID:\Keil5\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Keil5\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER -DSTM32F411xE-o smartwatch\stm32f4xx_hal.o --omf_browse smartwatch\stm32f4xx_hal.crf --depend smartwatch\stm32f4xx_hal.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6943E9D9)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69FFFBB0)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6943E9D9)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c)(0x6943E9D9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ..\Fwlib\Config -I ..\Fwlib\DebugLog -I ..\Fwlib\DebugLog\LogPrint -I ..\Fwlib\SeggerRtt -I ..\Fwlib\StdSnbc -I ..\Fwlib\RingBuffer-I.\RTE\_SmartWatch-ID:\Keil5\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Keil5\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER -DSTM32F411xE-o smartwatch\stm32f4xx_hal_exti.o --omf_browse smartwatch\stm32f4xx_hal_exti.crf --depend smartwatch\stm32f4xx_hal_exti.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6943E9D9)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69FFFBB0)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6943E9D9)
+F (../Core/Src/system_stm32f4xx.c)(0x6943E9D9)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ..\Fwlib\Config -I ..\Fwlib\DebugLog -I ..\Fwlib\DebugLog\LogPrint -I ..\Fwlib\SeggerRtt -I ..\Fwlib\StdSnbc -I ..\Fwlib\RingBuffer-I.\RTE\_SmartWatch-ID:\Keil5\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Keil5\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER -DSTM32F411xE-o smartwatch\system_stm32f4xx.o --omf_browse smartwatch\system_stm32f4xx.crf --depend smartwatch\system_stm32f4xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6943E9D9)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69FFFBB0)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6943E9D9)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6943E9D9)
+F (../X-CUBE-AI/App/sin_cauclaute.c)(0x6A003D36)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ..\Fwlib\Config -I ..\Fwlib\DebugLog -I ..\Fwlib\DebugLog\LogPrint -I ..\Fwlib\SeggerRtt -I ..\Fwlib\StdSnbc -I ..\Fwlib\RingBuffer-I.\RTE\_SmartWatch-ID:\Keil5\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Keil5\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER -DSTM32F411xE-o smartwatch\sin_cauclaute.o --omf_browse smartwatch\sin_cauclaute.crf --depend smartwatch\sin_cauclaute.d)
+I (../X-CUBE-AI/App/sin_cauclaute.h)(0x6A003D36)
+I (../X-CUBE-AI/App/sin_cauclaute_config.h)(0x6A003D36)
+I (../Middlewares/ST/AI/Inc/ai_platform.h)(0x6A0032FB)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (D:\Keil5\ARM\ARMCC\include\inttypes.h)(0x5D9AD218)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (../X-CUBE-AI/App/sin_cauclaute_data.h)(0x6A003D36)
+I (../X-CUBE-AI/App/sin_cauclaute_data_params.h)(0x6A003D36)
+I (../Middlewares/ST/AI/Inc/ai_platform_interface.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/datatypes_network.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/ai_datatypes.h)(0x6A0032FB)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (../Middlewares/ST/AI/Inc/ai_datatypes_defines.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/core_assert.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/ai_datatypes_format.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/formats_list.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/stai.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/ai_math_helpers.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/ai_lite_math_helpers.h)(0x6A0032FB)
+I (D:\Keil5\ARM\ARMCC\include\math.h)(0x5D9AD212)
+I (D:\Keil5\ARM\ARMCC\include\limits.h)(0x5D9AD212)
+I (../Middlewares/ST/AI/Inc/core_common.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/core_datatypes.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/core_convert.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_common.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/ai_common_config.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_list.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_conv2d.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_nl.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/lite_internal_apis.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/ai_lite_interface.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/ai_lite.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/lite_nl_list.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_pool.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/lite_maxpool_dqnn.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/lite_pool_f32.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_custom.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_dense.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_formats_converters.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_generic.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_lite_graph.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_norm.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_pad_dqnn.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_pad_generic.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_rnn.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_sm.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_ml.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_ml_iforest.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_ml_svc.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_ml_linearclassifier.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_ml_treeensembleclassifier.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_ml_treeensembleregressor.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_ml_svmregressor.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_conv2d_dqnn.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_dense_dqnn.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_pool_dqnn.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_generic_dqnn.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_upsample_generic.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_upsample.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_resize.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_argminmax.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/layers_wrappers.h)(0x6A0032FB)
+F (../X-CUBE-AI/App/sin_cauclaute_data.c)(0x6A003D36)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ..\Fwlib\Config -I ..\Fwlib\DebugLog -I ..\Fwlib\DebugLog\LogPrint -I ..\Fwlib\SeggerRtt -I ..\Fwlib\StdSnbc -I ..\Fwlib\RingBuffer-I.\RTE\_SmartWatch-ID:\Keil5\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Keil5\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER -DSTM32F411xE-o smartwatch\sin_cauclaute_data.o --omf_browse smartwatch\sin_cauclaute_data.crf --depend smartwatch\sin_cauclaute_data.d)
+I (../X-CUBE-AI/App/sin_cauclaute_data.h)(0x6A003D36)
+I (../X-CUBE-AI/App/sin_cauclaute_config.h)(0x6A003D36)
+I (../X-CUBE-AI/App/sin_cauclaute_data_params.h)(0x6A003D36)
+I (../Middlewares/ST/AI/Inc/ai_platform.h)(0x6A0032FB)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (D:\Keil5\ARM\ARMCC\include\inttypes.h)(0x5D9AD218)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (../Middlewares/ST/AI/Inc/ai_platform_interface.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/datatypes_network.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/ai_datatypes.h)(0x6A0032FB)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (../Middlewares/ST/AI/Inc/ai_datatypes_defines.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/core_assert.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/ai_datatypes_format.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/formats_list.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/stai.h)(0x6A0032FB)
+F (../X-CUBE-AI/App/sin_cauclaute_data_params.c)(0x6A003D36)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ..\Fwlib\Config -I ..\Fwlib\DebugLog -I ..\Fwlib\DebugLog\LogPrint -I ..\Fwlib\SeggerRtt -I ..\Fwlib\StdSnbc -I ..\Fwlib\RingBuffer-I.\RTE\_SmartWatch-ID:\Keil5\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Keil5\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER -DSTM32F411xE-o smartwatch\sin_cauclaute_data_params.o --omf_browse smartwatch\sin_cauclaute_data_params.crf --depend smartwatch\sin_cauclaute_data_params.d)
+I (../X-CUBE-AI/App/sin_cauclaute_data_params.h)(0x6A003D36)
+I (../Middlewares/ST/AI/Inc/ai_platform.h)(0x6A0032FB)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (D:\Keil5\ARM\ARMCC\include\inttypes.h)(0x5D9AD218)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+F (../X-CUBE-AI/App/app_x-cube-ai.c)(0x6A00468B)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ..\Fwlib\Config -I ..\Fwlib\DebugLog -I ..\Fwlib\DebugLog\LogPrint -I ..\Fwlib\SeggerRtt -I ..\Fwlib\StdSnbc -I ..\Fwlib\RingBuffer-I.\RTE\_SmartWatch-ID:\Keil5\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Keil5\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER -DSTM32F411xE-o smartwatch\app_x-cube-ai.o --omf_browse smartwatch\app_x-cube-ai.crf --depend smartwatch\app_x-cube-ai.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x6950A010)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x5D9AD21A)
+I (D:\Keil5\ARM\ARMCC\include\inttypes.h)(0x5D9AD218)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (../X-CUBE-AI/App/app_x-cube-ai.h)(0x6A003D2C)
+I (../Middlewares/ST/AI/Inc/ai_platform.h)(0x6A0032FB)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x5D9AD218)
+I (D:\Keil5\ARM\ARMCC\include\stdbool.h)(0x5D9AD218)
+I (../Core/Inc/main.h)(0x69FFFBB0)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x6943E9D9)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69FFFBB0)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x6943E9D9)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x6943E9D9)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x6943E9D9)
+I (../Middlewares/ST/AI/Inc/ai_datatypes_defines.h)(0x6A0032FB)
+I (../Middlewares/ST/AI/Inc/core_assert.h)(0x6A0032FB)
+I (../X-CUBE-AI/App/sin_cauclaute.h)(0x6A003D36)
+I (../X-CUBE-AI/App/sin_cauclaute_config.h)(0x6A003D36)
+I (../X-CUBE-AI/App/sin_cauclaute_data.h)(0x6A003D36)
+I (../X-CUBE-AI/App/sin_cauclaute_data_params.h)(0x6A003D36)
+I (..\Fwlib\DebugLog\DebugLog.h)(0x684FF753)
+I (..\Fwlib\DebugLog\DebugType.h)(0x684FF753)
+I (..\Fwlib\StdSnbc\StdSnbc.h)(0x6A004060)
+I (..\Fwlib\StdSnbc\StdDataTypeDef.h)(0x684FF752)
+I (..\Fwlib\StdSnbc\StdMacro.h)(0x684FF752)
+I (..\Fwlib\StdSnbc\StdFunction.h)(0x684FF752)
+I (..\Fwlib\StdSnbc\StdList.h)(0x684FF752)
+I (..\Fwlib\DebugLog\LogPrint/PrintService.h)(0x684FF753)
+I (..\Fwlib\DebugLog\LogPrint/../DebugLog.h)(0x684FF753)
+I (..\Fwlib\RingBuffer\RingBufferModule.h)(0x684FF753)
+I (..\Fwlib\RingBuffer\ringbufftypedef.h)(0x684FF753)
+I (..\Fwlib\Config\DebugConfig.h)(0x684FF751)
+I (D:\Keil5\ARM\ARMCC\include\math.h)(0x5D9AD212)
+F (../X-CUBE-AI/App/sin_cauclaute_generate_report.txt)(0x6A003D39)()
+F (../Middlewares/ST/AI/Lib/NetworkRuntime1020_CM4_Keil.lib)(0x6A0032FC)()
+F (..\Fwlib\DebugLog\LogPrint\PrintService.c)(0x684FF753)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ..\Fwlib\Config -I ..\Fwlib\DebugLog -I ..\Fwlib\DebugLog\LogPrint -I ..\Fwlib\SeggerRtt -I ..\Fwlib\StdSnbc -I ..\Fwlib\RingBuffer-I.\RTE\_SmartWatch-ID:\Keil5\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Keil5\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER -DSTM32F411xE-o smartwatch\printservice.o --omf_browse smartwatch\printservice.crf --depend smartwatch\printservice.d)
+I (D:\Keil5\ARM\ARMCC\include\stdarg.h)(0x5D9AD21A)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (..\Fwlib\DebugLog\LogPrint\PrintService.h)(0x684FF753)
+I (..\Fwlib\DebugLog\LogPrint\../DebugLog.h)(0x684FF753)
+I (..\Fwlib\DebugLog\LogPrint\../DebugType.h)(0x684FF753)
+I (..\Fwlib\StdSnbc\StdSnbc.h)(0x6A004060)
+I (..\Fwlib\StdSnbc\StdDataTypeDef.h)(0x684FF752)
+I (..\Fwlib\StdSnbc\StdMacro.h)(0x684FF752)
+I (..\Fwlib\StdSnbc\StdFunction.h)(0x684FF752)
+I (..\Fwlib\StdSnbc\StdList.h)(0x684FF752)
+I (..\Fwlib\DebugLog\LogPrint\../LogPrint/PrintService.h)(0x684FF753)
+I (..\Fwlib\RingBuffer\RingBufferModule.h)(0x684FF753)
+I (..\Fwlib\RingBuffer\ringbufftypedef.h)(0x684FF753)
+I (..\Fwlib\Config\DebugConfig.h)(0x684FF751)
+I (..\Fwlib\SeggerRtt\SeggerRtt.h)(0x684FF753)
+I (..\Fwlib\SeggerRtt\SEGGER_RTT.H)(0x684FF753)
+I (..\Fwlib\SeggerRtt\SEGGER_RTT_Conf.h)(0x684FF753)
+F (..\Fwlib\SeggerRtt\SEGGER_RTT.c)(0x684FF753)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ..\Fwlib\Config -I ..\Fwlib\DebugLog -I ..\Fwlib\DebugLog\LogPrint -I ..\Fwlib\SeggerRtt -I ..\Fwlib\StdSnbc -I ..\Fwlib\RingBuffer-I.\RTE\_SmartWatch-ID:\Keil5\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Keil5\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER -DSTM32F411xE-o smartwatch\segger_rtt.o --omf_browse smartwatch\segger_rtt.crf --depend smartwatch\segger_rtt.d)
+I (..\Fwlib\SeggerRtt\SEGGER_RTT.h)(0x684FF753)
+I (..\Fwlib\SeggerRtt\SEGGER_RTT_Conf.h)(0x684FF753)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+F (..\Fwlib\SeggerRtt\SeggerRtt.c)(0x684FF753)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ..\Fwlib\Config -I ..\Fwlib\DebugLog -I ..\Fwlib\DebugLog\LogPrint -I ..\Fwlib\SeggerRtt -I ..\Fwlib\StdSnbc -I ..\Fwlib\RingBuffer-I.\RTE\_SmartWatch-ID:\Keil5\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Keil5\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER -DSTM32F411xE-o smartwatch\seggerrtt.o --omf_browse smartwatch\seggerrtt.crf --depend smartwatch\seggerrtt.d)
+I (..\Fwlib\SeggerRtt\SeggerRtt.h)(0x684FF753)
+I (..\Fwlib\StdSnbc\StdSnbc.h)(0x6A004060)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (..\Fwlib\StdSnbc\StdDataTypeDef.h)(0x684FF752)
+I (..\Fwlib\StdSnbc\StdMacro.h)(0x684FF752)
+I (..\Fwlib\StdSnbc\StdFunction.h)(0x684FF752)
+I (..\Fwlib\StdSnbc\StdList.h)(0x684FF752)
+I (..\Fwlib\SeggerRtt\SEGGER_RTT.H)(0x684FF753)
+I (..\Fwlib\SeggerRtt\SEGGER_RTT_Conf.h)(0x684FF753)
+F (..\Fwlib\StdSnbc\StdFunction.c)(0x684FF752)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ..\Fwlib\Config -I ..\Fwlib\DebugLog -I ..\Fwlib\DebugLog\LogPrint -I ..\Fwlib\SeggerRtt -I ..\Fwlib\StdSnbc -I ..\Fwlib\RingBuffer-I.\RTE\_SmartWatch-ID:\Keil5\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Keil5\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER -DSTM32F411xE-o smartwatch\stdfunction.o --omf_browse smartwatch\stdfunction.crf --depend smartwatch\stdfunction.d)
+I (..\Fwlib\StdSnbc\StdDataTypeDef.h)(0x684FF752)
+I (..\Fwlib\StdSnbc\StdMacro.h)(0x684FF752)
+F (..\Fwlib\RingBuffer\RingBufferModule.c)(0x684FF753)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../X-CUBE-AI/App -I ../X-CUBE-AI -I ../Middlewares/ST/AI/Inc -I ..\Fwlib\Config -I ..\Fwlib\DebugLog -I ..\Fwlib\DebugLog\LogPrint -I ..\Fwlib\SeggerRtt -I ..\Fwlib\StdSnbc -I ..\Fwlib\RingBuffer-I.\RTE\_SmartWatch-ID:\Keil5\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Keil5\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F411xE -DUSE_HAL_DRIVER -DSTM32F411xE-o smartwatch\ringbuffermodule.o --omf_browse smartwatch\ringbuffermodule.crf --depend smartwatch\ringbuffermodule.d)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x5D9AD218)
+I (..\Fwlib\RingBuffer\ringbufftypedef.h)(0x684FF753)
+I (..\Fwlib\RingBuffer\ringbuffermodule.h)(0x684FF753)

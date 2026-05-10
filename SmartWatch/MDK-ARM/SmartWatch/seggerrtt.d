@@ -1,0 +1,10 @@
+smartwatch\seggerrtt.o: ..\Fwlib\SeggerRtt\SeggerRtt.c
+smartwatch\seggerrtt.o: ..\Fwlib\SeggerRtt\SeggerRtt.h
+smartwatch\seggerrtt.o: ..\Fwlib\StdSnbc\StdSnbc.h
+smartwatch\seggerrtt.o: D:\Keil5\ARM\ARMCC\Bin\..\include\string.h
+smartwatch\seggerrtt.o: ..\Fwlib\StdSnbc\StdDataTypeDef.h
+smartwatch\seggerrtt.o: ..\Fwlib\StdSnbc\StdMacro.h
+smartwatch\seggerrtt.o: ..\Fwlib\StdSnbc\StdFunction.h
+smartwatch\seggerrtt.o: ..\Fwlib\StdSnbc\StdList.h
+smartwatch\seggerrtt.o: ..\Fwlib\SeggerRtt\SEGGER_RTT.H
+smartwatch\seggerrtt.o: ..\Fwlib\SeggerRtt\SEGGER_RTT_Conf.h

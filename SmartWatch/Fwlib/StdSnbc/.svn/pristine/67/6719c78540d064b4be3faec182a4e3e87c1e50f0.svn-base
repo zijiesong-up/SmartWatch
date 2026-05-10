@@ -1,0 +1,36 @@
+/*!
+ *	Copyright (c) 2025,山东新北洋信息技术股份有限公司
+ *	All rights reserved.
+ *
+ *	\file     StdLibcRetarget.h
+ *  \brief    Arm Libc retarget head file
+ *  \version  1.0
+ *  \author   zhengjian
+ *	\date     2025-08-05
+ */
+
+#ifndef __STD_LIBC_RETARGET_H
+#define __STD_LIBC_RETARGET_H
+
+
+#include "StdLibcRetargetConfig.h"
+
+#ifndef __USE_MICROLIB
+
+#ifdef __MICROLIB
+    #error " !!!  - WARNING! - You are using MicroLIB! Please uncheck "Use MicroLIB" in Keil MDK "Options->Target" !!! "
+#endif
+
+
+#if defined ( __CC_ARM )
+    #pragma import(__use_no_semihosting)
+    #pragma import(__use_no_heap)
+#elif defined (__ARMCC_VERSION) && (__ARMCC_VERSION >= 6010050)
+    __asm(".global __use_no_semihosting\n\t");
+    __asm(".global __use_no_heap\n\t");
+#endif
+
+#endif  /* __USE_MICROLIB */
+
+
+#endif /* __STD_LIBC_RETARGET_H */

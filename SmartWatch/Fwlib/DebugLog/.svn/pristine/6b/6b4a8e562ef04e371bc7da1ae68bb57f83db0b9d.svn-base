@@ -1,0 +1,36 @@
+﻿模块名：FW_LIB_DEBUGLOG
+模块的作用：日志记录模块，主要用于日志的格式化输出
+模块输出的文件：
+相关联的模块：FW_LIB_RINGBUFFER
+
+模块所包含的文件及描述：Tools           放置测试程序，说明文档等。
+
+
+1、标签名：UV1-000-00-xuchunkai-170714-FirstHandle
+      更改记录：1)首次提交。程序依赖RINGBUFFER模块，下载后需要和RINGBUFFER一起使用。
+
+2、标签名：UV1-000-03-xuchunkai-171229-AddRttAndFolderTree
+      更改记录：1)调整模块文件组织结构。将对外输出的函数全部放在Debuglog.h中，将用户需要配置的等级等放在DebugConfig.h中。
+                2）增加SEGGER_RTT模块，在contexM系列CPU上结合JLINK仿真器可以实现在线日志输出。
+                3) 修正TYPE宏定义保护的笔误。
+
+3、标签名：UV1-000-03-xuchunkai-171229-ImproveType
+	更改记录：1)修正TYPE宏定义保护的笔误
+
+4、标签名：UV1-000-04-liumaolin-180427-SeggerRttSeperate
+    更改记录：1、将日志模块内SeggerRtt代码删除，直接引用SeggerRtt模块
+             2、为了消除编译警告，将Ram输出模式的相关代码用预处理进行开关。
+             3、不支持同时用不同模式输出日志
+
+5、标签名：MV1-000-06-liumaolin-191203
+    更改记录：DEBUG_LOG_ERR\DEBUG_LOG_INFO\DEBUG_LOG_TRACE输出时DEBUG_LOG_PRINTF调用3次，改为调用2次，提高日志输出效率。
+
+6、标签名：MV1-000-07-liumaolin-200225
+    更改记录：数据类型引用StdSnbc.h
+
+7、标签名：MV1-000-09-zhengjian-20220721
+    更改记录：解决RtVsnprintf返回长度大于日志缓冲区大小导致的溢出的问题
+
+8、标签名：MV1-000-10-wangbotao-20241209
+    更改记录：调整日志输出格式，并增加WARNING等级输出
+    
